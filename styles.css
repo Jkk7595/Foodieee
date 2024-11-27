@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height:70px;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow: 1px 2px 1px greenyellow;
+}
+nav span{
+    color: orange;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style:none;
+}
+nav ul a {
+text-decoration:none ;
+color: #444;
+}
+
+#home{
+    height:91vh;
+    padding:20px;
+    background-image: URL(https://media.istockphoto.com/id/1829241109/photo/enjoying-a-brunch-together.webp?a=1&b=1&s=612x612&w=0&k=20&c=PDAOJZowRgcFpLORXCV5p9Yt4wuOlxpYkxOUk5M4koo=);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#home h2{
+    font-family:Arial, Helvetica, sans-serif
+    font-size: 4rem;
+    color: whitesmoke;
+    margin top: top 3.5rem;
+    
+}
+
+#home p{
+    color:blue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+padding: 15px 18px;
+color: white;
+}
+.order-btn{
+    background-color: orange;
+    border: none;
+}
+.order-btn:hover{
+background-color: white;
+color: orange;
+cursor: pointer;
+box-shadow: 1px 2px 3px orangered;
+}
+.book-btn{
+    background-color: transparent;
+    border: 1px solid orange;
+}
+.book-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px whitesmoke;
+    border:none;
+}
+
+#about{
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+#about img{
+    width:300px;
+    height: 200px;
+    border-radius: 10PX;
+}
+#about.koko h3{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom:20px;
+}
+.koko p{
+    width: 650px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+.koko button{
+    padding: 15px 18px ;
+    background-color: orange;
+    border: none;
+    color: whitesmoke;
+    margin-top: 10px;
+}
+
+.koko button:hover{
+    background-color: white;
+    color: orange;
+    border: 2px solid greenyellow;
+}
+
+#services h2{
+    font-size: 50px;
+    color:black;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    justify-content:center ;
+    line-height: 3px;
+    padding-bottom: 10px;
+    
+}
+#services .Services-Container{
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    line-height: 50px;
+    font-size: 1rem;
+}
+.pk-kk{
+    font-family: 'Times New Roman', Times, serif
+    text-align: center;
+    color: black;
+    font-size: 18px
+}
+.butn{
+    margin: bottom 20px;
+    padding: 80px;
+    background-color: orange;
+    color: whitesmoke;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.butn:hover{
+    background-color: white;
+    color: orange;
+    font-size: 3rem; 
+    margin-left:20px;
+    padding: 60px;
+}
+#Pricing h2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Pricing .Pricing-content{
+    text-align: center;
+    display: git ;
+}
+    
+    
+
